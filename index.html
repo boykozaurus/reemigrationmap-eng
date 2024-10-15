@@ -30,13 +30,13 @@
             transition: background-color ease-in-out 100ms;
         }
         #toggle-button:hover svg {
-            fill: #EFEEED
+            fill: #EFEEED;
         }
         #toggle-button:hover  {
-            background-color: #780200
+            background-color: #780200;
         }
         #toggle-button svg {
-            fill: #780200
+            fill: #780200;
         }
         #sidebar.collapsed {
             width: 0;
@@ -92,6 +92,9 @@
         center: [20.0, 50.0],
         zoom: 2,
     });
+
+    // Добавляем контролы зума и вращения
+    map.addControl(new mapboxgl.NavigationControl());
 
     map.scrollZoom.disable();
 
@@ -253,14 +256,14 @@
 
     document.addEventListener('resize', () => {
         setTimeout(() => map.resize(), 200)
-    })
+    });
     document.addEventListener('DOMContentLoaded', () => {
         const sidebar = document.getElementById('sidebar');
         const toggleSidebarButton = document.getElementById('toggle-button');
 
         toggleSidebarButton?.addEventListener('click', () => {
             sidebar.classList.toggle('collapsed');
-            map.resize()
+            map.resize();
         });
     });
 </script>
