@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar {
+    width: 380px;
+    background: #EFEEED;
+    padding: 24px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(100% - 380px);
+    left: 380px;
+    height: 100%;
+}
+
+#routes-info {
+    height: 96vh;
+    overflow-y: scroll;
+}
+
+#routes-info::-webkit-scrollbar {
+    background: #EFEEED;
+    width: 0;
+}
+
+@media (max-width:500px) {
+    #sidebar {
+        width: 250px;
+        height: auto;
+    }
+    #map {
+        left: 250px !important;
+        width: calc(100% - 250px) !important;
+    }
+
+    #sidebar.collapsed ~ #map {
+        left: 0 !important;
+        width: 100% !important;
+    }
+
+}
+
+.route-info-title {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.route-info-img {
+    display: none;
+    margin-bottom: 16px;
+    transition: all 1s ease-in-out;
+}
+
+.route-info-block {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: 1px solid #BDBDBD;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.route-info-block.is-opened .route-info-description,
+.route-info-block.is-opened .route-info-img,
+.route-info-block.is-opened .route-info-button {
+    display: block;
+}
+.route-info-block.is-opened .route-info-title-icon {
+    transform: rotate(180deg);
+    transition: all .3s ease-in-out;
+}
+
+
+.route-info-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.route-info-description {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    transition: all .3s ease-in-out;
+    border-top: 1px solid #BDBDBD;
+}
+
+.route-info-title-icon {
+    transition: all .3s ease-in-out;
+}
+
+.route-info-button {
+    margin-top: 12px;
+    display: none;
+    color: #790200;
+    width: fit-content;
+    border: 1px solid #790200;
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 16px;
+    height: 32px;
+    padding:0 16px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 5px;
+}
+
+li:hover {
+    color: #007bff;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Стили для мобильной версии */

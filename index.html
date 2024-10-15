@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Интерактивная карта маршрута</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+        #sidebar {
+            position: relative;
+            overflow: visible;
+            transition: width ease-in-out 200ms;
+        }
+        #toggle-button {
+            position: absolute;
+            width: 36px;
+            height: 36px;
+            top: 50%;
+            right: -48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px 0 #00000040;
+            background: #EFEEED;
+            border-radius: 8px;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            transition: background-color ease-in-out 100ms;
+        }
+        #toggle-button:hover svg {
+            fill: #EFEEED
+        }
+        #toggle-button:hover  {
+            background-color: #780200
+        }
+        #toggle-button svg {
+            fill: #780200
+        }
+        #sidebar.collapsed {
+            width: 0;
+            margin-left: -48px;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            left: 380px;
+            right: 0;
+            bottom: 0;
+            width: calc(100% - 380px);
+            height: 100%;
+        }
+        #sidebar.collapsed ~ #map {
+            left: 0;
+            width: 100%; /* Когда сайдбар скрыт, карта занимает всю ширину */
+        }
+        #sidebar.collapsed #toggle-button {
+            transform: rotate(180deg);
+            transition: transform ease-in-out 200ms;
+        }
+        #sidebar.collapsed #routes-info {
+            margin-left: -400px;
+        }
+        #routes-info {
+            transition: margin-left ease-in-out 200ms;
+            margin-left: 0;
+        }
+        body {
+            background-color: #EFEEED;
+        }
+    </style>
+</head>
+<body>
+<div id="sidebar">
+    <button id="toggle-button">
+        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.5392 20.56L9.60925 21.5L0.509247 12.18C-0.120595 11.5194 -0.120595 10.4806 0.509247 9.82L9.60925 0.5L10.5392 1.44L1.44925 10.76C1.31702 10.8927 1.31702 11.1073 1.44925 11.24L10.5392 20.56Z"/>
+        </svg>
+    </button>
+    <div id="routes-info"></div>
+</div>
+<div id="map"></div>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYm95a296YXVydXMiLCJhIjoiY2x6cHc2dXhpMTF4ZjJxcjd2Z2M2YnhsaiJ9.I8vl4u3DW2avIaCyQqaUPg';
+
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/boykozaurus/cm02lnizi007e01r64giudtmj',
+        center: [20.0, 50.0],
+        zoom: 2,
+    });
+
+    map.scrollZoom.disable();
+
+    let activeRouteIndex = null;
+    let activeCard = null;
+    let markers = [];
+
+    function closeAllCards() {
+        const allCards = document.querySelectorAll('.route-info-block');
+        allCards.forEach(card => {
+            card.classList.remove('is-opened');
+        });
+    }
+
+    function removeMarkers() {
+        markers.forEach(marker => marker.remove());
+        markers = [];
+    }
+
+    fetch('routeData.json')
+        .then(response => response.json())
+        .then(routeDataArray => {
+            const routesInfoContainer = document.getElementById('routes-info');
+
+            routeDataArray.forEach((geojsonData, index) => {
+                const defaultColor = '#BDBDBD';
+                const activeColor = '#1C1C1C';
+
+                const routeInfoBlock = document.createElement('div');
+                routeInfoBlock.classList.add('route-info-block');
+
+                if (geojsonData.routeInfo.featuredImage) {
+                    const routeImg = document.createElement('img');
+                    routeImg.src = geojsonData.routeInfo.featuredImage;
+                    routeImg.classList.add('route-info-img');
+                    routeInfoBlock.appendChild(routeImg);
+
+                    routeImg.addEventListener('click', () => {
+                        handleCardToggle(routeInfoBlock, index);
+                    });
+                }
+
+                const titleWrapper = document.createElement('div');
+                titleWrapper.innerHTML = `<div class="route-info-title-wrapper">
+                    <h3 class="route-info-title">${geojsonData.routeInfo.title}</h3>
+                    <svg width="24" height="24" class="route-info-title-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.9999 17.8132C11.5499 17.8132 11.1269 17.6352 10.8109 17.3132L1.0249 7.31623L1.9749 6.38623L11.7599 16.3822C11.8899 16.5132 12.1089 16.5142 12.2399 16.3812L22.0239 6.38623L22.9749 7.31623L13.1899 17.3122C12.8729 17.6362 12.4499 17.8132 11.9999 17.8132Z" fill="#790200"/>
+                    </svg>
+                </div>`;
+
+                const routeDescription = document.createElement('div');
+                routeDescription.classList.add('route-info-description');
+                routeDescription.innerHTML = `<p>${geojsonData.routeInfo.description}</p>`;
+
+                routeInfoBlock.appendChild(titleWrapper);
+                routeInfoBlock.appendChild(routeDescription);
+                routesInfoContainer.appendChild(routeInfoBlock);
+
+                titleWrapper.addEventListener('click', () => {
+                    handleCardToggle(routeInfoBlock, index);
+                });
+
+                map.on('load', () => {
+                    map.addSource(`route-${index}`, {
+                        type: 'geojson',
+                        data: geojsonData,
+                    });
+
+                    map.addLayer({
+                        id: `route-${index}`,
+                        type: 'line',
+                        source: `route-${index}`,
+                        filter: ['==', '$type', 'LineString'],
+                        layout: {
+                            'line-join': 'round',
+                            'line-cap': 'round',
+                        },
+                        paint: {
+                            'line-color': defaultColor,
+                            'line-width': 4,
+                            'line-opacity': 0.5,
+                        },
+                    });
+
+                    if (index === 0) {
+                        handleCardToggle(routeInfoBlock, index); // Открываем первую карточку по умолчанию
+                    }
+                });
+
+                function handleCardToggle(routeInfoBlock, index) {
+                    if (activeCard && activeCard !== routeInfoBlock) {
+                        activeCard.classList.remove('is-opened');
+                        map.setPaintProperty(`route-${activeRouteIndex}`, 'line-color', defaultColor); // Сбрасываем цвет предыдущего маршрута
+                        removeMarkers();
+                    }
+
+                    if (routeInfoBlock === activeCard) {
+                        routeInfoBlock.classList.remove('is-opened');
+                        map.setPaintProperty(`route-${index}`, 'line-color', defaultColor); // Сбрасываем цвет текущего маршрута
+                        removeMarkers();
+                        activeCard = null;
+                        activeRouteIndex = null;
+                    } else {
+                        routeInfoBlock.classList.add('is-opened');
+                        map.setPaintProperty(`route-${index}`, 'line-color', activeColor); // Устанавливаем цвет активного маршрута
+                        addMarkers(geojsonData.features);
+
+                        const bounds = new mapboxgl.LngLatBounds();
+                        geojsonData.features.forEach(function(feature) {
+                            if (feature.geometry.type === 'LineString') {
+                                feature.geometry.coordinates.forEach(coord => bounds.extend(coord));
+                            }
+                        });
+
+                        map.fitBounds(bounds, {
+                            padding: 20,
+                            maxZoom: 14,
+                        });
+
+                        activeCard = routeInfoBlock;
+                        activeRouteIndex = index;
+                    }
+                }
+
+                function addMarkers(features) {
+                    features.forEach(function (feature) {
+                        if (feature.geometry.type === 'Point') {
+                            const popup = new mapboxgl.Popup({ offset: 25 }).setText(
+                                `${feature.properties.city}: ${feature.properties.event}`
+                            );
+
+                            const marker = new mapboxgl.Marker({
+                                element: createCustomMarker(),
+                            })
+                            .setLngLat(feature.geometry.coordinates)
+                            .setPopup(popup)
+                            .addTo(map);
+
+                            marker.getElement().addEventListener('click', () => {
+                                openModal(`${feature.properties.city}: ${feature.properties.event}`);
+                            });
+
+                            markers.push(marker);
+                        }
+                    });
+                }
+
+                function createCustomMarker() {
+                    const el = document.createElement('div');
+                    el.style.width = '15px';
+                    el.style.height = '15px';
+                    el.style.borderRadius = '50%';
+                    el.style.backgroundColor = '#EFEEED';
+                    el.style.boxShadow = '0px 0px 0px 10px rgba(78, 21, 18, 1)';
+                    return el;
+                }
+            });
+        });
+
+    document.addEventListener('resize', () => {
+        setTimeout(() => map.resize(), 200)
+    })
+    document.addEventListener('DOMContentLoaded', () => {
+        const sidebar = document.getElementById('sidebar');
+        const toggleSidebarButton = document.getElementById('toggle-button');
+
+        toggleSidebarButton?.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+            map.resize()
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,678 @@
+[
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [24.1531, 55.2637],
+            [-58.3816, -34.6037],
+            [37.6173, 55.7558],
+            [25.9358, 48.2920]
+          ]
+        },
+        "properties": {
+          "routeId": "route-2"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [24.1531, 55.2637]
+        },
+        "properties": {
+          "event": "место рождения",
+          "city": "Кейданы, Ковенская губерния"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.3816, -34.6037]
+        },
+        "properties": {
+          "event": "эмиграция в Аргентину в 1925",
+          "city": "Аргентина"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6173, 55.7558]
+        },
+        "properties": {
+          "event": "переезд в СССР в 1932",
+          "city": "Москва, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [25.9358, 48.2920]
+        },
+        "properties": {
+          "event": "умер в Черновцах в 1979",
+          "city": "Черновцы, Украина"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Гирш Блоштейн (агент «Кант»)",
+      "description": "Гирш Блоштейн был поэтом и писателем, который с 1938 года стал агентом МГБ под псевдонимом 'Кант'. Он родился в бедной семье в Литве, 8 лет прожил в Аргентине, где работал редактором левых изданий, затем переехал в СССР. Блоштейн активно сотрудничал с советскими органами госбезопасности, занимался литературной деятельностью и умер в Черновцах в 1979 году.",
+      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f8a3334a313767369_girsh-blo.jpg"
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [30.7233, 46.4825],
+            [-74.0060, 40.7128],
+            [30.7233, 46.4825],
+            [-74.0060, 40.7129],
+            [30.7233, 46.4825]
+          ]
+        },
+        "properties": {
+          "routeId": "route-1"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [30.7233, 46.4825]
+        },
+        "properties": {
+          "event": "место рождения, 1895",
+          "city": "Одесса, Украина"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.0060, 40.7128]
+        },
+        "properties": {
+          "event": "переезд в 1913",
+          "city": "Нью-Йорк, США"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [30.7233, 46.4825]
+        },
+        "properties": {
+          "event": "возвращение в 1917",
+          "city": "Одесса, Украина"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.0060, 40.7128]
+        },
+        "properties": {
+          "event": "поездка в 1924",
+          "city": "Нью-Йорк, США"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [30.7233, 46.4825]
+        },
+        "properties": {
+          "event": "возвращение в 1926",
+          "city": "Одесса, Украина"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Рувим Иосифович Альперович",
+      "description": "Рувим Иосифович Альперович родился в 1895 году в Одессе. С 1913 по 1917 год жил в Нью-Йорке, где работал на оружейном заводе, затем вернулся в Советскую Россию. В период с 1919 по 1920 год учился в Одесской консерватории, после чего работал переводчиком в различных советских учреждениях, включая Управление Черноморского пароходства."
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [21.0224, 52.0679],
+            [37.6173, 55.7558],
+            [150.8026, 59.5682]
+          ]
+        },
+        "properties": {
+          "routeId": "route-3"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [21.0224, 52.0679]
+        },
+        "properties": {
+          "event": "место рождения, до 1926",
+          "city": "Мазовецкое воеводство, Польша"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6173, 55.7558]
+        },
+        "properties": {
+          "event": "переезд в 1926",
+          "city": "Москва, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [150.8026, 59.5682]
+        },
+        "properties": {
+          "event": "арест и ссылка, 1948-1952",
+          "city": "Магадан, СССР"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Перец Маркиш",
+      "description": "Перец Маркиш — еврейский поэт и писатель, родился в Польше. В 1926 году эмигрировал в СССР, где активно публиковался на идише. Был арестован в 1948 году и расстрелян в 1952 году по обвинению в антисоветской деятельности. Реабилитирован посмертно в 1955 году.",
+      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/66db258a8ed4105bf961323f_%D0%9F%D0%B5%D1%80%D0%B5%D1%86%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B8%D1%88_%D0%B8%D0%B7%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5.jpg"
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [26.8601, 48.7011],
+            [13.4050, 52.5200],
+            [21.0122, 52.2297],
+            [37.6173, 55.7558],
+            [150.8026, 59.5682]
+          ]
+        },
+        "properties": {
+          "routeId": "route-4"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [26.8601, 48.7011]
+        },
+        "properties": {
+          "event": "место рождения, до 1921",
+          "city": "Окопы, Украина"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [13.4050, 52.5200]
+        },
+        "properties": {
+          "event": "эмиграция в 1921",
+          "city": "Берлин, Германия"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [21.0122, 52.2297]
+        },
+        "properties": {
+          "event": "короткий период до 1934",
+          "city": "Варшава, Польша"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6173, 55.7558]
+        },
+        "properties": {
+          "event": "возвращение в 1934",
+          "city": "Москва, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [150.8026, 59.5682]
+        },
+        "properties": {
+          "event": "арест и ссылка, 1948-1952",
+          "city": "Магадан, СССР"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Давид Бергельсон",
+      "description": "Давид Бергельсон — еврейский писатель, родился в Украине, но большую часть жизни провел за границей, включая Германию и Польшу. В 1934 году вернулся в СССР, где также был арестован в 1948 году и расстрелян в 1952 году. Реабилитирован посмертно в 1955 году.",
+      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fc4442a965ef7e38a_dav-ber.jpg"
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [30.5234, 50.4501],
+            [13.4050, 52.5200],
+            [2.3522, 48.8566],
+            [37.6173, 55.7558]
+          ]
+        },
+        "properties": {
+          "routeId": "route-5"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [30.5234, 50.4501]
+        },
+        "properties": {
+          "event": "место рождения, до 1921",
+          "city": "Киев, Россия"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [13.4050, 52.5200]
+        },
+        "properties": {
+          "event": "эмиграция в 1921",
+          "city": "Берлин, Германия"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.3522, 48.8566]
+        },
+        "properties": {
+          "event": "переезд в 1925",
+          "city": "Париж, Франция"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6173, 55.7558]
+        },
+        "properties": {
+          "event": "возвращение в 1940",
+          "city": "Москва, СССР"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Илья Эренбург",
+      "description": "Илья Эренбург — писатель и журналист, родился в Киеве. Эмигрировал в 1921 году в Европу, жил в Париже, Берлине и других городах. В 1940 году вернулся в СССР, где продолжал писать и публиковаться. Его работы пользовались популярностью, и он не подвергался репрессиям в отличие от многих других еврейских писателей.",
+      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/66db264ae9343b09fe2621f9_%D0%AD%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%20%D0%98.%20%D0%9C%D0%BE%D0%B8%CC%86%20%D0%9F%D0%B0%D1%80%D0%B8%D0%B6.%20%E2%80%94%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%201933_2.jpg"
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [26.5350, 55.8755],
+            [-74.0060, 40.7128],
+            [37.6173, 55.7558]
+          ]
+        },
+        "properties": {
+          "routeId": "route-6"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [26.5350, 55.8755]
+        },
+        "properties": {
+          "event": "место рождения, до 1920-х",
+          "city": "Двинск (ныне Даугавпилс), Латвия"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.0060, 40.7128]
+        },
+        "properties": {
+          "event": "поездка в 1920-е",
+          "city": "Нью-Йорк, США"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6173, 55.7558]
+        },
+        "properties": {
+          "event": "возвращение в 1920-е",
+          "city": "Москва, СССР"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Соломон Михоэлс",
+      "description": "Соломон Михоэлс — выдающийся еврейский актер и режиссер, родился в России. В 1920-е годы работал в театре в США, но вернулся в СССР, где возглавил Еврейский государственный театр. Был убит в 1948 году при невыясненных обстоятельствах, вероятно по приказу Сталина.",
+      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f1b0658186e312a69_mihoels.jpg"
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-74.1724, 40.7357],
+            [44.0059, 56.3269],
+            [37.6173, 55.7555],
+            [-75.1652, 39.9526]
+          ]
+        },
+        "properties": {
+          "routeId": "route-9"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.1724, 40.7357]
+        },
+        "properties": {
+          "event": "место рождения, 1907",
+          "city": "Ньюарк, США"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [44.0059, 56.3269]
+        },
+        "properties": {
+          "event": "работа и жизнь с 1932",
+          "city": "Нижний Новгород, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6173, 55.7555]
+        },
+        "properties": {
+          "event": "переезд и жизнь с 1937",
+          "city": "Москва, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.1652, 39.9526]
+        },
+        "properties": {
+          "event": "возвращение в 1980",
+          "city": "Филадельфия, США"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Маргарет Ефремова",
+      "description": "Маргарет Веттлин родилась в Ньюарке, США, в 1907 году и приехала в СССР в 1932 году, разочаровавшись в политике США. В СССР она вышла замуж за театрального режиссера Андрея Ефремова и занималась преподаванием английского языка и литературы. После смерти мужа она вернулась в США в 1980 году.",
+      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f8a3af23f5380e28c_margaret-efr.jpg"
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-78.8784, 42.8864],
+            [37.6176, 55.7559],
+            [150.8029, 59.5687],
+            [-78.8784, 42.8864]
+          ]
+        },
+        "properties": {
+          "routeId": "route-8"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.8784, 42.8864]
+        },
+        "properties": {
+          "event": "место рождения, 1916",
+          "city": "Буффало, США"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6176, 55.7559]
+        },
+        "properties": {
+          "event": "переезд в 1935",
+          "city": "Москва, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [150.8029, 59.5687]
+        },
+        "properties": {
+          "event": "отправка в ГУЛАГ, 1938",
+          "city": "Магадан, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.8784, 42.8864]
+        },
+        "properties": {
+          "event": "возвращение в 1956",
+          "city": "Буффало, США"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Томас Сговио",
+      "description": "Томас Сговио родился в США и переехал в СССР в 1935 году вслед за своим отцом-коммунистом. После попытки вернуть американское гражданство он был арестован НКВД и отправлен в ГУЛАГ. Сговио провел долгие годы в лагерях и вернулся в США только в 1956 году.",
+      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/66db275e2766aa9e75cde696_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81%20%D0%A1%D0%B3%D0%BE%D0%B2%D0%B8%D0%BE%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%20%D0%B0%D1%80%D0%B5%D1%81%D1%82%D0%B0.jpg"
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [33.9172, 51.6774],
+            [-74.0060, 40.7128],
+            [37.6173, 55.7557],
+            [150.8026, 59.5682]
+          ]
+        },
+        "properties": {
+          "routeId": "route-7"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [33.9172, 51.6774]
+        },
+        "properties": {
+          "event": "место рождения, до 1930-х",
+          "city": "Глухов, Украина"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.0060, 40.7128]
+        },
+        "properties": {
+          "event": "эмиграция в 1920-е",
+          "city": "Нью-Йорк, США"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6173, 55.7557]
+        },
+        "properties": {
+          "event": "возвращение в 1930-е",
+          "city": "Москва, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [150.8026, 59.5682]
+        },
+        "properties": {
+          "event": "арест и ссылка, 1949-1952",
+          "city": "Магадан, СССР"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Шмуэль Гофштейн",
+      "description": "Шмуэль Гофштейн — поэт, переводчик, родился в Украине, жил в Европе и США. Вернулся в СССР в 1930-е годы, где активно работал до ареста в 1949 году. Был расстрелян в 1952 году и реабилитирован посмертно в 1955 году​​."
+    }
+  },
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-79.3832, 43.6532],
+            [37.6177, 55.7558],
+            [37.6178, 55.7558]
+          ]
+        },
+        "properties": {
+          "routeId": "route-10"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.3832, 43.6532]
+        },
+        "properties": {
+          "event": "место рождения, 1918",
+          "city": "Торонто, Канада"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6177, 55.7558]
+        },
+        "properties": {
+          "event": "переезд в 1925",
+          "city": "Москва, СССР"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.6178, 55.7558]
+        },
+        "properties": {
+          "event": "жизнь и работа до 1977",
+          "city": "Москва, СССР"
+        }
+      }
+    ],
+    "routeInfo": {
+      "title": "Леон Закс",
+      "description": "Леон Закс родился в Канаде в 1918 году в семье эмигрантов из Российской империи. В 1925 году его семья переехала в СССР, где Леон проявил свои музыкальные способности, став выдающимся скрипачом и педагогом. Он стал концертмейстером оркестра Большого театра и активно занимался преподаванием до своей смерти в 1977 году.",
+      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/66db27faa47459f67bf8c92a_%D0%97%D0%B0%D0%BA%D1%81_%D0%9B%D0%B5%D0%BE%D0%BD_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87.jpg"
+    }
+  }
+]
