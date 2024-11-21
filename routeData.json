@@ -1,2753 +1,2824 @@
 [
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [30.693236, 46.474515],
-            [-73.971888, 40.579628],
-            [30.7233, 46.4825],
-            [-73.965417, 40.578656],
-            [30.709715, 46.446608]
-          ]
-        },
-        "properties": {
-          "routeId": "route-1"
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            30.693236,
+                            46.474515
+                        ],
+                        [
+                            -73.971888,
+                            40.579628
+                        ],
+                        [
+                            30.7233,
+                            46.4825
+                        ],
+                        [
+                            -73.965417,
+                            40.578656
+                        ],
+                        [
+                            30.709715,
+                            46.446608
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-1"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.693236,
+                        46.474515
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1895",
+                    "city": "Odessa, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -73.971888,
+                        40.579628
+                    ]
+                },
+                "properties": {
+                    "event": "moved there in 1913",
+                    "city": "New York, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.7233,
+                        46.4825
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1917",
+                    "city": "Odessa, Russian Empire "
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -73.965417,
+                        40.578656
+                    ]
+                },
+                "properties": {
+                    "event": "traveled in 1924",
+                    "city": "New York, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.709715,
+                        46.446608
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1926.",
+                    "city": "Odessa, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Ruvin Alperovitch ",
+            "description": "Ruvin (Ruvim) Iosifovich Alperovich was born in Odessa in 1895. From 1913 to 1917, he lived in New York, worked at a weapons factory, and then returned to Soviet Russia. Between 1919 and 1920, he studied at the Odessa Conservatory. Later, he worked as a translator for various agencies, including the Black Sea Shipping Administration.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f435b69984102df69_ruvin-alp.jpg"
         }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [30.693236, 46.474515]
-        },
-        "properties": {
-          "event": "birthplace, 1895",
-          "city": "Odessa, Russian Empire"
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            23.982401,
+                            55.288043
+                        ],
+                        [
+                            -58.3816,
+                            -34.6037
+                        ],
+                        [
+                            37.549374,
+                            55.883461
+                        ],
+                        [
+                            25.9358,
+                            48.292
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-2"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        23.982401,
+                        55.288043
+                    ]
+                },
+                "properties": {
+                    "event": "born, 1895",
+                    "city": "Keidany, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.3816,
+                        -34.6037
+                    ]
+                },
+                "properties": {
+                    "event": "emigrated in 1925",
+                    "city": "Argentina"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.549374,
+                        55.883461
+                    ]
+                },
+                "properties": {
+                    "event": "moved in February 1932",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        25.9358,
+                        48.292
+                    ]
+                },
+                "properties": {
+                    "event": "died in 1979",
+                    "city": "Chernivtsi, Ukraine"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Hirsch Blostein (agent “Kant”)",
+            "description": "Bloshtein Hirsh Davidovich (1895, Keidany, Kovno province - 1979, Chernivtsi) - poet and writer, starting from 1938 - and MGB agent under the handle \"Kant.\" Hirsch was born in a poor family in Lithuania and lived in Argentina for eight years, working as an editor of left-wing periodicals. In February 1932, at the Moscow Association of Proletarian Writers's request, he obtained an invitation to move to the USSR. Blostein was an active collaborator working with the Soviet State Security agencies, pursued a literary career, and died in Chernivtsi in 1979.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f8a3334a313767369_girsh-blo.jpg"
         }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-73.971888, 40.579628]
-        },
-        "properties": {
-          "event": "moved there in 1913",
-          "city": "New York, USA"
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            27.5075,
+                            50.1237
+                        ],
+                        [
+                            20.997551,
+                            52.22069
+                        ],
+                        [
+                            13.498847,
+                            52.536468
+                        ],
+                        [
+                            2.356302,
+                            48.871247
+                        ],
+                        [
+                            -0.126487,
+                            51.503664
+                        ],
+                        [
+                            12.457707,
+                            41.87673
+                        ],
+                        [
+                            37.718177,
+                            55.742222
+                        ],
+                        [
+                            150.817463,
+                            59.561895
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-3"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        27.5075,
+                        50.1237
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1895",
+                    "city": "Polonnoye, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        20.997551,
+                        52.22069
+                    ]
+                },
+                "properties": {
+                    "event": "1921–1926",
+                    "city": "Warsaw"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.498847,
+                        52.536468
+                    ]
+                },
+                "properties": {
+                    "event": "1921–1926",
+                    "city": "Berlin"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.356302,
+                        48.871247
+                    ]
+                },
+                "properties": {
+                    "event": "1921–1926",
+                    "city": "Paris"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -0.126487,
+                        51.503664
+                    ]
+                },
+                "properties": {
+                    "event": "1921–1926",
+                    "city": "London"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        12.457707,
+                        41.87673
+                    ]
+                },
+                "properties": {
+                    "event": "1921–1926",
+                    "city": "Rome"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.718177,
+                        55.742222
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1926",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        150.817463,
+                        59.561895
+                    ]
+                },
+                "properties": {
+                    "event": "arrested and exiled, 1948-1952",
+                    "city": "Magadan, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Peretz Markish",
+            "description": "Peretz Markish (1895 - 1952) - Jewish poet. Between 1921 and 1926, Markish lived under a Polish passport in Warsaw, Berlin, Paris, London, and Rome, writing and publishing extensively. Besides numerous poems published in Jewish periodicals in Poland and the USSR, he wrote several plays staged at the Moscow GOSET. He served as head of the Jewish section of the USSR Writer's Union and a member of the Presidium of the JAC; he was arrested on 27.01.1949 and, executed on 12.08.1952 and rehabilitated on 22.11.1955.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f158581b9e10f8cde_peretz-mar.jpg"
         }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [30.7233, 46.4825]
-        },
-        "properties": {
-          "event": "returned in 1917",
-          "city": "Odessa, Russian Empire "
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            34.7492,
+                            46.6452
+                        ],
+                        [
+                            13.463142,
+                            52.540644
+                        ],
+                        [
+                            20.997551,
+                            52.239615
+                        ],
+                        [
+                            37.725951,
+                            55.701166
+                        ],
+                        [
+                            150.856918,
+                            59.545696
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-4"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.7492,
+                        46.6452
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1884",
+                    "city": "Okhrimovo, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.463142,
+                        52.540644
+                    ]
+                },
+                "properties": {
+                    "event": "emigrated in 1921",
+                    "city": "Berlin, Germany"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        20.997551,
+                        52.239615
+                    ]
+                },
+                "properties": {
+                    "event": "brief period until 1934",
+                    "city": "Warsaw, Poland"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.725951,
+                        55.701166
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1934",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        150.856918,
+                        59.545696
+                    ]
+                },
+                "properties": {
+                    "event": "arrested and exiled, 1948-1952",
+                    "city": "Magadan, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "David Bergelson",
+            "description": "avid Bergelson (1884-1952) - Jewish writer born in Ukraine who spent most of his life abroad, particularly in Germany and Poland. In 1934, he returned to the USSR and, in 1949, was arrested for his involvement in the Jewish Anti-Fascist Committee. He was executed in 1952 and rehabilitatedd posthumously in 1955.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fc4442a965ef7e38a_dav-ber.jpg"
         }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-73.965417, 40.578656]
-        },
-        "properties": {
-          "event": "traveled in 1924",
-          "city": "New York, USA"
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            30.5234,
+                            50.4501
+                        ],
+                        [
+                            13.405,
+                            52.52
+                        ],
+                        [
+                            2.3522,
+                            48.8566
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-5"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.5234,
+                        50.4501
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1891",
+                    "city": "Kyiv, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.405,
+                        52.52
+                    ]
+                },
+                "properties": {
+                    "event": "emigrated in 1921",
+                    "city": "Berlin, Germany"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.3522,
+                        48.8566
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1925",
+                    "city": "Paris, France"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1940",
+                    "city": "Moscow, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Ilya Ehrenburg",
+            "description": "Ilya Ehrenburg (1891-1967) - writer and journalist, born in Kiev. He emigrated to Europe in 1921 and lived in Paris, Berlin, and other cities. In 1940, he returned to the USSR, continuing his writing and publishing. His works were popular, and unlike many other Jewish writers, he never suffered repression.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fbdf7903b6bb74018_ilya-ere.jpg"
         }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [30.709715, 46.446608]
-        },
-        "properties": {
-          "event": "returned in 1926.",
-          "city": "Odessa, USSR"
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            29.0568,
+                            50.3172
+                        ],
+                        [
+                            34.7818,
+                            32.0853
+                        ],
+                        [
+                            30.5234,
+                            50.4501
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            150.8026,
+                            59.5682
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-6"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        29.0568,
+                        50.3172
+                    ]
+                },
+                "properties": {
+                    "event": "place of birth, 1889",
+                    "city": "Korostyshev, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.7818,
+                        32.0853
+                    ]
+                },
+                "properties": {
+                    "event": "emigrated in 1925",
+                    "city": "Tel Aviv"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.5234,
+                        50.4501
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1926",
+                    "city": "Kyiv, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "арест в 1948",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        150.8026,
+                        59.5682
+                    ]
+                },
+                "properties": {
+                    "event": "arrested and exiled, 1949-1952",
+                    "city": "Magadan, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "David Hofstein",
+            "description": "David Hofstein (1889 - 1952) - Jewish poet (wrote in Yiddish and Hebrew). Between 1922 and 1924, he was a member of the literary group “Shtrom.” In 1925, he worked at the Tel Aviv City Hall; in 1926, he settled in Kyiv, residing in the Writer's House Rolit, and taught at the directing department of the Jewish faculty of the Theater Institute; he was a member of the JAC; starting from 1938 he was investigated by the Ukrainian SSR NKVD regarding the intelligence file “Boyevtsy,” arrested in Kyiv on 16.09.1948 and transported to Moscow, to the investigative unit for especially important cases at the USSR MGB, executed along with other JAC activists.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f4acec738c67d77c0_david-gof.jpg"
         }
-      }
-    ],
-    "routeInfo": {
-      "title": "Ruvin Alperovitch ",
-      "description": "Ruvin (Ruvim) Iosifovich Alperovich was born in Odessa in 1895. From 1913 to 1917, he lived in New York, worked at a weapons factory, and then returned to Soviet Russia. Between 1919 and 1920, he studied at the Odessa Conservatory. Later, he worked as a translator for various agencies, including the Black Sea Shipping Administration.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f435b69984102df69_ruvin-alp.jpg"
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            -78.8784,
+                            42.8864
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            150.8029,
+                            59.5687
+                        ],
+                        [
+                            -78.8784,
+                            42.8864
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-7"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -78.8784,
+                        42.8864
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1916",
+                    "city": "Buffalo, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1935",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        150.8029,
+                        59.5687
+                    ]
+                },
+                "properties": {
+                    "event": "sent to the Gulag in 1938",
+                    "city": "Magadan, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -78.8784,
+                        42.8864
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1956",
+                    "city": "Buffalo, USA"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Thomas Sgovio",
+            "description": "Thomas Sgovio (1916-1997) - American artist Thomas Sgovio was born in the United States and moved to the USSR in 1935 following his Communist father. After attempting to regain his American citizenship, he was arrested by the NKVD and sent to the Gulag in 1938. Sgovio spent long years in the camps and only returned to the U.S. in 1956.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f99f3af9a2463b49f_thomas-sgo.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            -74.1724,
+                            40.7357
+                        ],
+                        [
+                            44.0059,
+                            56.3269
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            -75.1652,
+                            39.9526
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-8"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -74.1724,
+                        40.7357
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1907",
+                    "city": "Newark, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        44.0059,
+                        56.3269
+                    ]
+                },
+                "properties": {
+                    "event": "worked and lived since 1932",
+                    "city": "Nizhny Novgorod, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1937",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -75.1652,
+                        39.9526
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1980",
+                    "city": "Philadelphia, USA "
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Margaret Efremova",
+            "description": "Margaret Efremova (1907-2003) was born in Newark (USA) and came to the USSR in 1932, disenchanted with US politics. In the USSR, she married theater director Andrei Efremov and worked as an English language and literature teacher. After her husband's death, she returned to the United States in 1980.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f8a3af23f5380e28c_margaret-efr.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            -79.3832,
+                            43.6532
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-9"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -79.3832,
+                        43.6532
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1918",
+                    "city": "Toronto, Canada"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1925",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6175,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "died in 1977",
+                    "city": "Moscow, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Leon Sachs",
+            "description": "Leon Sachs (1918-1977) was born in Canada in 1918 to immigrant parents from the Russian Empire. In 1925, his family moved to the USSR, where Leon pursued his musical talents, becoming an outstanding violinist and violin teacher. He went on to become concertmaster of the Bolshoi Theater Orchestra and was an active teacher until he died in 1977.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f10ccba07c6541aa3_leon-sachs.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            39.8845,
+                            57.6261
+                        ],
+                        [
+                            -0.1278,
+                            51.5074
+                        ],
+                        [
+                            34.779338,
+                            32.087647
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-10"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        39.8845,
+                        57.6261
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1917",
+                    "city": "Yaroslavl, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -0.1278,
+                        51.5074
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1984",
+                    "city": "London, United Kingdom"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.779338,
+                        32.087647
+                    ]
+                },
+                "properties": {
+                    "event": "1987–1988",
+                    "city": "Tel Aviv"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1989",
+                    "city": "Moscow, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Yuri Lyubimov",
+            "description": "Yuri Lyubimov (1917-2014) was a famous Soviet and Russian theater director, founder and artistic director of the Taganka Theater. He lived in London and Israel but returned to Russia in 1989.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f87bbd89e5c7d272a_aleksandr-sol.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            42.7208,
+                            43.9133
+                        ],
+                        [
+                            -72.5778,
+                            44.5588
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-11"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        42.7208,
+                        43.9133
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1918",
+                    "city": "Kislovodsk, RSFSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -72.5778,
+                        44.5588
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1976",
+                    "city": "Vermont, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1994",
+                    "city": "Moscow, Russia"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Aleksandr Solzhenitsyn",
+            "description": "Aleksandr Solzhenitsyn (1918-2008) is probably the best-known Soviet re-emigrant. He was a Russian writer, playwright, political and social activist, and a Nobel Prize winner in literature. In 1945, he was arrested and spent eight years in gulag camps, among them in Kazakhstan, serving time in the Ekibastuz forced labor camp. After his release in 1956, he continued his literary pursuits, denouncing the Stalinist regime. He was expelled from the USSR in 1974 and lived in the United States, but returned to Russia in 1994.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f87bbd89e5c7d272a_aleksandr-sol.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            -77.2975,
+                            18.1096
+                        ],
+                        [
+                            -83.0458,
+                            42.3314
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            69.2401,
+                            41.2995
+                        ],
+                        [
+                            -77.0369,
+                            38.9072
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-12"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.2975,
+                        18.1096
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1906",
+                    "city": "Jamaica"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -83.0458,
+                        42.3314
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1924",
+                    "city": "Detroit, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1930",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        69.2401,
+                        41.2995
+                    ]
+                },
+                "properties": {
+                    "event": "during World War II",
+                    "city": "Tashkent, Uzbekistan"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.0369,
+                        38.9072
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1976",
+                    "city": "Washington, USA"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Robert Robinson",
+            "description": "Robert Robinson (1906-1994) was an American engineer who moved to the Soviet Union in the 1930s to escape racial discrimination in the United States. He worked for Soviet industry and lived in the Soviet Union for over 44 years. Robinson's auto-biography in “Black on Red” chronicles his experiences living in the Soviet Union.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f25199ec0146bf9f8_robert-rob.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            -83.0458,
+                            42.3314
+                        ],
+                        [
+                            43.9361,
+                            56.2965
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            -118.2437,
+                            34.0522
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-13"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -83.0458,
+                        42.3314
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1915",
+                    "city": "Detroit, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        43.9361,
+                        56.2965
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1931",
+                    "city": "Gorky (Nizhny Novgorod), USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "after release and until 1976",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -118.2437,
+                        34.0522
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1976",
+                    "city": "Los Angeles, USA"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Victor Herman",
+            "description": "Victor Herman was an American who moved to the USSR in the 1930s with his family as a part of a group of American workers sent to build the Gorky Automobile Plant. He came to be known as “Russia's Lindbergh” for setting the Soviet record for parachute jumps but later fell victim to Stalin's purges. Herman resided in the USSR for 45 years, 18 of those years spent in Soviet camps, before returning to the United States in 1976. Victor Herman wrote and published Grey People, a book about the lives of Americans in the USSR.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf9604acec738c67d78c7_viktor-german.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            30.41729,
+                            50.495139
+                        ],
+                        [
+                            30.740096,
+                            46.434929
+                        ],
+                        [
+                            37.62982,
+                            55.713546
+                        ],
+                        [
+                            2.370721,
+                            48.872602
+                        ],
+                        [
+                            121.51312,
+                            31.27115
+                        ],
+                        [
+                            -73.958053,
+                            40.667691
+                        ],
+                        [
+                            37.630582,
+                            55.788187
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-14"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.41729,
+                        50.495139
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1889",
+                    "city": "Kyiv, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.740096,
+                        46.434929
+                    ]
+                },
+                "properties": {
+                    "event": "spent part of his youth",
+                    "city": "Odessa, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.62982,
+                        55.713546
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1913 and launched his artistic career.",
+                    "city": "Moscow, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.370721,
+                        48.872602
+                    ]
+                },
+                "properties": {
+                    "event": "emigrated in 1920",
+                    "city": "Paris, France"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.51312,
+                        31.27115
+                    ]
+                },
+                "properties": {
+                    "event": "lived between 1935 and 1943",
+                    "city": "Shanghai, China"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -73.958053,
+                        40.667691
+                    ]
+                },
+                "properties": {
+                    "event": "lived during World War II",
+                    "city": "New York, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.630582,
+                        55.788187
+                    ]
+                },
+                "properties": {
+                    "event": "returned to the USSR in 1943",
+                    "city": "Moscow, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Alexander Vertinsky",
+            "description": "Alexander Vertinsky (1889-1957) was a prominent Russian poet, singer, and actor, a symbol of the so-called “Silver Age” era. Vertinsky was born on March 21, 1889 in Kiev. He lived and worked in Odessa, St. Petersburg, Paris and Berlin. In 1943, he came to the USSR and settled in Moscow.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fbdf7903b6bb73ff1_aleksandr-vert.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            126.676042,
+                            45.765734
+                        ],
+                        [
+                            37.621581,
+                            55.827874
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-15"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        126.676042,
+                        45.765734
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace",
+                    "city": "Harbin, China"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.621581,
+                        55.827874
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1947",
+                    "city": "Moscow, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Grigory and Tankred Golenpolsky",
+            "description": "Grigory (1911-1975) and Tankred (1931-2015) Golenpolsky re-emigrated from China to the USSR in 1947. Grigory was arrested (the date of arrest is unknown). Later, the intelligence file on them was closed for lack of evidence. Tankred Golenpolsky (June 8, 1931, Harbin - March 5, 2015, Moscow) worked as a journalist and translator. He is best known for his translations of Arthur Miller into Russian and for founding the first Jewish newspaper in the USSR, the Vestnik of Jewish Soviet Culture (VESK, later International Jewish Newspaper).",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f67cb0b7780f0c29f_golenpolski.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            30.716582,
+                            46.446135
+                        ],
+                        [
+                            34.880147,
+                            32.080021
+                        ],
+                        [
+                            38.715309,
+                            45.856447
+                        ],
+                        [
+                            92.1703,
+                            58.4498
+                        ],
+                        [
+                            30.7233,
+                            46.4825
+                        ],
+                        [
+                            30.4739,
+                            50.4724
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-16"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.716582,
+                        46.446135
+                    ]
+                },
+                "properties": {
+                    "event": "born 1897",
+                    "city": "Odessa, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.880147,
+                        32.080021
+                    ]
+                },
+                "properties": {
+                    "event": "spring, 1925",
+                    "city": "Petah Tikva, Palestine"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        38.715309,
+                        45.856447
+                    ]
+                },
+                "properties": {
+                    "event": "returned, 1927",
+                    "city": "USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        92.1703,
+                        58.4498
+                    ]
+                },
+                "properties": {
+                    "event": "exile period, years unknown",
+                    "city": "Yeniseisk, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.7233,
+                        46.4825
+                    ]
+                },
+                "properties": {
+                    "event": "after the exile.",
+                    "city": "South of Ukraine, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.4739,
+                        50.4724
+                    ]
+                },
+                "properties": {
+                    "event": "place of death, 1938",
+                    "city": "Kiev, USSR (Lukyanovskaya prison)"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Moshe Weisbein",
+            "description": "Moshe Weisbein (1897-1938), also known as Solomon Kofman-Vygodsky, Mikhail, Misha, Mikita, was one of the leaders of the illegal Zionist-Socialist Party (ZSP) in the USSR. In February 1923, Moshe Weissben was arrested in Kyiv and sentenced to a five-year banishment overseas. In 1925, he emigrated to Mandatory Palestine and continued his active political work. However, in 1927, at the request of the CSP leadership, Weissben illegally entered the USSR to rebuild the party's organizational structure. In 1929, Weissben was arrested and convicted of espionage and smuggling. He served his three-year sentence in the Solovetsky Special Purpose Camp, where he contracted pulmonary tuberculosis. After his release, Weissbein resumed his political work in the CSP. He took part in drawing up the new party program, only to be re-arrested in 1937. Seven months later, on April 19, 1938, Moshe Weisbein died of tuberculosis in the hospital of Lukyanovsky prison (Kiev)."
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            32.8481,
+                            53.0615
+                        ],
+                        [
+                            56.2294,
+                            58.0105
+                        ],
+                        [
+                            7.4474,
+                            46.9481
+                        ],
+                        [
+                            46.0342,
+                            51.5346
+                        ],
+                        [
+                            126.620412,
+                            45.776012
+                        ],
+                        [
+                            131.0969,
+                            44.5839
+                        ],
+                        [
+                            61.4766,
+                            58.0409
+                        ],
+                        [
+                            67.7277,
+                            47.5563
+                        ],
+                        [
+                            73.0858,
+                            49.8062
+                        ],
+                        [
+                            34.8516,
+                            31.0461
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-17"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        32.8481,
+                        53.0615
+                    ]
+                },
+                "properties": {
+                    "event": "birth 1885",
+                    "city": "Mglin, Russia"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        56.2294,
+                        58.0105
+                    ]
+                },
+                "properties": {
+                    "event": "graduated from gymnasium, 1903",
+                    "city": "Perm, Russia"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        7.4474,
+                        46.9481
+                    ]
+                },
+                "properties": {
+                    "event": "studied at the university, 1904-1908",
+                    "city": "Bern, Switzerland"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.0342,
+                        51.5346
+                    ]
+                },
+                "properties": {
+                    "event": "1908",
+                    "city": "Volga region, Russia"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        126.620412,
+                        45.776012
+                    ]
+                },
+                "properties": {
+                    "event": "1912–1945",
+                    "city": "Harbin, China"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        131.0969,
+                        44.5839
+                    ]
+                },
+                "properties": {
+                    "event": "1945",
+                    "city": "Grodekovo, USSR (Primorsky Krai)"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        61.4766,
+                        58.0409
+                    ]
+                },
+                "properties": {
+                    "event": "ITL Azanka",
+                    "city": "Azanka, Sverdlovsk Oblast, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        67.7277,
+                        47.5563
+                    ]
+                },
+                "properties": {
+                    "event": "ITL Kengir",
+                    "city": "Kengir, Kazakhstan"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        73.0858,
+                        49.8062
+                    ]
+                },
+                "properties": {
+                    "event": "released and settled, 1956",
+                    "city": "Karaganda, Kazakhstan"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.8516,
+                        31.0461
+                    ]
+                },
+                "properties": {
+                    "event": "emigrated in 1961",
+                    "city": "Israel"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Abram Kaufman",
+            "description": "Abram Iosifovich Kaufman (1885-1971) was a medical doctor, one of the founders of the Zionist movement in China, and author of memoirs and works on the history of Jewish communities in the Far East. He was born in Chernihiv province and studied medicine at the University of Bern (Switzerland). In 1912, he settled in Harbin (Manchuria), where he was chairman of the Harbin Jewish community until 1945. In 1937, he founded and headed the National Council of Jewish Communities of the Far East, assisting Jews fleeing to China from Europe. From 1921-1943, he was editor of the Russian-language weekly magazine “Jewish Life,” the weekly “Siberia-Palestine,” and the newspaper “Jewish Vestnik.” He was the chief physician at the Jewish hospital which he established. In 1945, after the Red Army occupied Harbin, Kaufman was arrested and transported to the USSR, charged with espionage and Zionist activity. In 1948, he was sentenced to 25 years imprisonment. Kaufman continued to work as a doctor in the labor camps. He was released in 1956 and was ordered to settle in Karaganda, Kazakhstan. In 1961, he emigrated to Israel with his son Theodore. He continued to work as a doctor and also wrote memoirs and works about the history of Jewish communities in the Far East. Kaufman recounted his years in the USSR in his book “The Camp Doctor.”"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            121.511589,
+                            31.261202
+                        ],
+                        [
+                            73.430479,
+                            54.978146
+                        ],
+                        [
+                            25.940927,
+                            48.295578
+                        ],
+                        [
+                            34.979104,
+                            32.777529
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-18"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.511589,
+                        31.261202
+                    ]
+                },
+                "properties": {
+                    "event": "place of birth and youth",
+                    "city": "Shanghai, China"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        73.430479,
+                        54.978146
+                    ]
+                },
+                "properties": {
+                    "event": "emigrated in the 1940s",
+                    "city": "Omsk, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        25.940927,
+                        48.295578
+                    ]
+                },
+                "properties": {
+                    "event": "arrested in 1948",
+                    "city": "Chernivtsi, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.979104,
+                        32.777529
+                    ]
+                },
+                "properties": {
+                    "event": "supposed repatriation",
+                    "city": "Israel"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Bernard Vitenzon",
+            "description": "Bernard Solomonovich Vitenzon (?-2018) was born in Shanghai. His family owned a haberdashery store on Joffre Street. In the 1940s, Vitenzon emigrated to the Soviet Union. In 1948, he was arrested on charges of anti-Soviet activities. According to investigation records, Bernard Vitenzon sought to join the OUN/UPA to fight the Soviet regime. He was convicted as an American spy. According to unconfirmed accounts, Vitenzon survived and eventually repatriated to Israel."
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            126.6424,
+                            45.7567
+                        ],
+                        [
+                            73.430479,
+                            54.978146
+                        ],
+                        [
+                            25.940927,
+                            48.295578
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-19"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        126.6424,
+                        45.7567
+                    ]
+                },
+                "properties": {
+                    "event": " place of birth and life before repatriation to the USSR",
+                    "city": "Harbin, China"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        73.430479,
+                        54.978146
+                    ]
+                },
+                "properties": {
+                    "event": "repatriation",
+                    "city": "Omsk, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        25.940927,
+                        48.295578
+                    ]
+                },
+                "properties": {
+                    "event": "arrested in 1948",
+                    "city": "Chernivtsi, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Boris Abramovich and Alexander Borisovich Shornik ",
+            "description": "Boris Abramovich Shornik (1884-?) and Alexander Borisovich Shornik (1920-?) were re-emigrants from Harbin. In 1948, Alexander Shornik was arrested on charges of anti-Soviet activities. According to investigation protocols, he sought to join the OUN/UPA to fight against Soviet power. Alexander Shornik was convicted as an American spy. The subsequent fates of the father and son Shorniks are unknown."
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            22.7179,
+                            48.439
+                        ],
+                        [
+                            2.343,
+                            48.8529
+                        ],
+                        [
+                            28.5813,
+                            49.8996
+                        ],
+                        [
+                            1.8883,
+                            46.6034
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-20"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        22.7179,
+                        48.439
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1922",
+                    "city": "Mukachevo, Ukraine"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.343,
+                        48.8529
+                    ]
+                },
+                "properties": {
+                    "event": "Sorbonne University, 1937",
+                    "city": "Paris, France"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        28.5813,
+                        49.8996
+                    ]
+                },
+                "properties": {
+                    "event": "post-prison residence",
+                    "city": "Berdichev, Ukraine"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.8883,
+                        46.6034
+                    ]
+                },
+                "properties": {
+                    "event": "return (no specific city)",
+                    "city": "France"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Maurice Friedman",
+            "description": "Maurice Davidovich Friedman (1922-2000) was born in Mukachevo into a family of teachers. The family moved to France when he was still an infant. In 1937, he entered the Sorbonne. During the war, he fought in the British army, and in 1947, he came, as a supporter of the communist idea, to the Soviet Union. In October 1947, Friedman attempted to flee illegally to Romania but was arrested by a border guard unit and sentenced to a year in corrective labor camps. After serving his sentence, he came to live in Berdychiv. In 1950, a form case was opened on him as an alleged participant in the Zionist underground. After Stalin's death, Friedman's case was closed. He worked in Berdichev as a foreign language teacher; he knew English, French, Spanish, Farsi, Hebrew, and Yiddish. In 1961, he defended his dissertation. In the 1980s, he returned to France."
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            24.1052,
+                            56.9496
+                        ],
+                        [
+                            30.3351,
+                            59.9343
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            13.405,
+                            52.52
+                        ],
+                        [
+                            -118.3228,
+                            34.0922
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-21"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        24.1052,
+                        56.9496
+                    ]
+                },
+                "properties": {
+                    "event": "birth, 1898",
+                    "city": "Riga, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.3351,
+                        59.9343
+                    ]
+                },
+                "properties": {
+                    "event": "lived since 1915",
+                    "city": "St. Petersburg, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "since 1920",
+                    "city": "Moscow, RSFSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.405,
+                        52.52
+                    ]
+                },
+                "properties": {
+                    "event": "moved for work, 1926",
+                    "city": "Berlin, Germany"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -118.3228,
+                        34.0922
+                    ]
+                },
+                "properties": {
+                    "event": "worked in Hollywood, 1930–1932",
+                    "city": "Hollywood, USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "returned, from 1932 until his death in 1948",
+                    "city": "Moscow, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Sergei Eisenstein",
+            "description": "Sergei Eisenstein (1898-1948) was an illustrious Soviet director, film theorist, and educator. He invented several groundbreaking editing methods. He directed such celebrated films as Battleship Potemkin and Ivan the Terrible. Eisenstein worked abroad, including in Hollywood, but returned to the USSR in 1932.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fd198130b56e4cf6c_serhei-eis.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            32.4414,
+                            54.4067
+                        ],
+                        [
+                            30.2049,
+                            55.1904
+                        ],
+                        [
+                            8.6512,
+                            49.8728
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            13.405,
+                            52.52
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-22"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        32.4414,
+                        54.4067
+                    ]
+                },
+                "properties": {
+                    "event": "born, 1890",
+                    "city": "Pochinok, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.2049,
+                        55.1904
+                    ]
+                },
+                "properties": {
+                    "event": "studies, 1909",
+                    "city": "Vitebsk, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        8.6512,
+                        49.8728
+                    ]
+                },
+                "properties": {
+                    "event": "studies, 1909-1914",
+                    "city": "Darmstadt, Germany"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "1920s",
+                    "city": "Moscow, RSFSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.405,
+                        52.52
+                    ]
+                },
+                "properties": {
+                    "event": "1920s",
+                    "city": "Berlin, Germany"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "returned until his death in 1941",
+                    "city": "Moscow, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "El Lissitzky",
+            "description": "El Lissitzky (1890-1941) was a famous Soviet artist, architect, and designer, was one of the leaders of the Russian avant-garde. Lissitzky made a significant contribution to the evolution of Suprematism and Constructivism, working in both the USSR and Germany. He is known for his revolutionary architecture, printing, and exhibition design projects.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f158581b9e10f8ca3_el-lis.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            49.1233,
+                            55.7879
+                        ],
+                        [
+                            150.8114,
+                            59.5675
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            -74.006,
+                            40.7128
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-23"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        49.1233,
+                        55.7879
+                    ]
+                },
+                "properties": {
+                    "event": "birth, 1932",
+                    "city": "Kazan, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        150.8114,
+                        59.5675
+                    ]
+                },
+                "properties": {
+                    "event": "childhood, 1930s",
+                    "city": "Magadan, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "since 1950s.",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -74.006,
+                        40.7128
+                    ]
+                },
+                "properties": {
+                    "event": "emigration, 1980s",
+                    "city": "USA"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "returned, 2004 until his death in 2009",
+                    "city": "Moscow, Russia"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Vasily Aksyonov",
+            "description": "Vasily Aksyonov (1932-2009) was a prominent Soviet and Russian writer, a representative of the “sixties” generation. His parents were repressed and imprisoned in 1937, so Vasily Aksyonov spent part of his childhood in Magadan, which is reflected in his work. Aksyonov emigrated to the United States in 1980 but returned to Russia in 2004.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f6991b32c718a428d_vasilii-aks.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            27.1164,
+                            51.0056
+                        ],
+                        [
+                            -58.3816,
+                            -34.6037
+                        ],
+                        [
+                            4.3517,
+                            50.8503
+                        ],
+                        [
+                            24.7097,
+                            48.9226
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-24"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        27.1164,
+                        51.0056
+                    ]
+                },
+                "properties": {
+                    "event": "birthplace, 1921/1924",
+                    "city": "Berezno, Volhynia, Ukraine (then Poland)"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.3816,
+                        -34.6037
+                    ]
+                },
+                "properties": {
+                    "event": "emigraed in 1935",
+                    "city": "Buenos Aires, Argentina"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        4.3517,
+                        50.8503
+                    ]
+                },
+                "properties": {
+                    "event": "visited in 1947",
+                    "city": "Brussels, Belgium"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        24.7097,
+                        48.9226
+                    ]
+                },
+                "properties": {
+                    "event": "moved in 1949",
+                    "city": "Stanislav (now Ivano-Frankivsk), Ukraine"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "David Gendler",
+            "description": "David Gendler emigrated with his family to Argentina in 1935. He arrived in Brussels in 1947, then returned to the USSR in 1949, living in Stanislav.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95faf6eff9fd796d37f_david-gen.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            44.8271,
+                            41.7151
+                        ],
+                        [
+                            41.6386,
+                            41.6418
+                        ],
+                        [
+                            30.7233,
+                            46.4825
+                        ],
+                        [
+                            34.9896,
+                            32.794
+                        ],
+                        [
+                            44.8271,
+                            41.7151
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-25"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        44.8271,
+                        41.7151
+                    ]
+                },
+                "properties": {
+                    "event": "born, 1896",
+                    "city": "Tbilisi, Russian Empire"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        41.6386,
+                        41.6418
+                    ]
+                },
+                "properties": {
+                    "event": "1925",
+                    "city": "Batumi, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        30.7233,
+                        46.4825
+                    ]
+                },
+                "properties": {
+                    "event": "1925",
+                    "city": "Odessa, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.9896,
+                        32.794
+                    ]
+                },
+                "properties": {
+                    "event": "1925–1926",
+                    "city": "Haifa, Palestine"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        44.8271,
+                        41.7151
+                    ]
+                },
+                "properties": {
+                    "event": "returned in 1926",
+                    "city": "Tbilisi, USSR"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Yakov (Sebi) Khananashvili",
+            "description": "Yakov (Sebi) Khananashvili (1896-1972) was an active member of the Georgian Zionist movement who obtained permission to leave for Palestine in 1925. Faced with harsh living conditions in Palestine, Yakov's family returned to Tbilisi, presumably in 1926, where he was arrested for espionage and sent to the Gulag for 6 years. Sebi Khananashvili died in 1972 in Tbilisi.",
+            "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f2853d2955e074cbc_sebi-haa.jpg"
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            25.2797,
+                            54.6872
+                        ],
+                        [
+                            84.8709,
+                            52.2978
+                        ],
+                        [
+                            19.456,
+                            51.7592
+                        ],
+                        [
+                            34.8516,
+                            31.0461
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ],
+                        [
+                            -2.2426,
+                            53.4808
+                        ],
+                        [
+                            37.6173,
+                            55.7558
+                        ]
+                    ]
+                },
+                "properties": {
+                    "routeId": "route-26"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        25.2797,
+                        54.6872
+                    ]
+                },
+                "properties": {
+                    "event": "birth, 1930",
+                    "city": "Vilna, Lithuania"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        84.8709,
+                        52.2978
+                    ]
+                },
+                "properties": {
+                    "event": "deportation to a settlement, 1941",
+                    "city": "Altai, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        19.456,
+                        51.7592
+                    ]
+                },
+                "properties": {
+                    "event": "1946–1947",
+                    "city": "Lodz (Polish Republic)"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.8516,
+                        31.0461
+                    ]
+                },
+                "properties": {
+                    "event": "1948",
+                    "city": "Israel"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "cultural exchange program: research work, 1978-1989",
+                    "city": "Moscow, USSR"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -2.2426,
+                        53.4808
+                    ]
+                },
+                "properties": {
+                    "event": "research and teaching, 1989-2020",
+                    "city": "Manchester, Great Britain"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        37.6173,
+                        55.7558
+                    ]
+                },
+                "properties": {
+                    "event": "died in 2020",
+                    "city": "Moscow, Russia"
+                }
+            }
+        ],
+        "routeInfo": {
+            "title": "Teodor Shanin",
+            "description": "Teodor Shanin (1930-2020) - professor, sociologist, founder of the Moscow Higher School of Social and Economic Sciences. Born in Vilna (modern Vilnius). In 1940, after Lithuania's annexation to the USSR, his father was arrested, and Theodore and his mother were deported to a settlement in Altai. Subsequently, he lived with his parents in Samarkand. In 1948 he left for Mandatory Palestine, where he fought as a volunteer in Israel's War of Independence. In 1951 he graduated from the Jerusalem College of Social Work. He pursued his professional career. From 1968 he taught at leading universities in England and Israel. He conducted his field research in Iran, India, Mexico, Tanzania, Hungary, Russia, and the USA. From 1989 to 1991, he organized three advanced training schools for emerging Soviet sociologists in Manchester and Kent. In 1995 he came to Moscow and became one of the founders and the first rector of the Moscow Higher School of Social and Economic Sciences (Shaninka)."
+        }
     }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [23.982401, 55.288043],
-            [-58.3816, -34.6037],
-            [37.549374, 55.883461],
-            [25.9358, 48.292]
-          ]
-        },
-        "properties": {
-          "routeId": "route-2"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [23.982401, 55.288043]
-        },
-        "properties": {
-          "event": "born, 1895",
-          "city": "Keidany, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-58.3816, -34.6037]
-        },
-        "properties": {
-          "event": "emigrated in 1925",
-          "city": "Argentina"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [37.549374, 55.883461]
-        },
-        "properties": {
-          "event": "moved in February 1932",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [25.9358, 48.292]
-        },
-        "properties": {
-          "event": "died in 1979",
-          "city": "Chernivtsi, Ukraine"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Hirsch Blostein (agent “Kant”)",
-      "description": "Bloshtein Hirsh Davidovich (1895, Keidany, Kovno province - 1979, Chernivtsi) - poet and writer, starting from 1938 - and MGB agent under the handle “Kant.”
-Hirsch was born in a poor family in Lithuania and lived in Argentina for eight years, working as an editor of left-wing periodicals. In February 1932, at the Moscow Association of Proletarian Writers's request, he obtained an invitation to move to the USSR. Blostein was an active collaborator working with the Soviet State Security agencies, pursued a literary career, and died in Chernivtsi in 1979.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f8a3334a313767369_girsh-blo.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [27.5075, 50.1237],
-            [
-              20.997551,
-              52.22069
-            ],
-            [
-              13.498847,
-              52.536468
-            ],
-            [
-              2.356302,
-              48.871247
-            ],
-            [
-              -0.126487,
-              51.503664
-            ],
-            [
-              12.457707,
-              41.87673
-            ],
-            [
-              37.718177,
-              55.742222
-            ],
-            [
-              150.817463,
-              59.561895
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-3"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            27.5075,
-            50.1237
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1895",
-          "city": "Polonnoye, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            20.997551,
-            52.22069
-          ]
-        },
-        "properties": {
-          "event": "1921–1926",
-          "city": "Warsaw"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.498847,
-            52.536468
-          ]
-        },
-        "properties": {
-          "event": "1921–1926",
-          "city": "Berlin"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.356302,
-            48.871247
-          ]
-        },
-        "properties": {
-          "event": "1921–1926",
-          "city": "Paris"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.126487,
-            51.503664
-          ]
-        },
-        "properties": {
-          "event": "1921–1926",
-          "city": "London"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            12.457707,
-            41.87673
-          ]
-        },
-        "properties": {
-          "event": "1921–1926",
-          "city": "Rome"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.718177,
-            55.742222
-          ]
-        },
-        "properties": {
-          "event": "moved in 1926",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            150.817463,
-            59.561895
-          ]
-        },
-        "properties": {
-          "event": "arrested and exiled, 1948-1952",
-          "city": "Magadan, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Peretz Markish",
-      "description": "Peretz Markish (1895 - 1952) - Jewish poet. Between 1921 and 1926, Markish lived under a Polish passport in Warsaw, Berlin, Paris, London, and Rome, writing and publishing extensively. Besides numerous poems published in Jewish periodicals in Poland and the USSR, he wrote several plays staged at the Moscow GOSET. He served as head of the Jewish section of the USSR Writer's Union and a member of the Presidium of the JAC; he was arrested on 27.01.1949 and, executed on 12.08.1952 and rehabilitated on 22.11.1955.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f158581b9e10f8cde_peretz-mar.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              34.7492,
-              46.6452
-            ],
-            [
-              13.463142,
-              52.540644
-            ],
-            [
-              20.997551,
-              52.239615
-            ],
-            [
-              37.725951,
-              55.701166
-            ],
-            [
-              150.856918,
-              59.545696
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-4"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            34.7492,
-            46.6452
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1884",
-          "city": "Okhrimovo, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.463142,
-            52.540644
-          ]
-        },
-        "properties": {
-          "event": "emigrated in 1921",
-          "city": "Berlin, Germany"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            20.997551,
-            52.239615
-          ]
-        },
-        "properties": {
-          "event": "brief period until 1934",
-          "city": "Warsaw, Poland"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.725951,
-            55.701166
-          ]
-        },
-        "properties": {
-          "event": "returned in 1934",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            150.856918,
-            59.545696
-          ]
-        },
-        "properties": {
-          "event": "arrested and exiled, 1948-1952",
-          "city": "Magadan, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "David Bergelson",
-      "description": "avid Bergelson (1884-1952) - Jewish writer born in Ukraine who spent most of his life abroad, particularly in Germany and Poland. In 1934, he returned to the USSR and, in 1949, was arrested for his involvement in the Jewish Anti-Fascist Committee. He was executed in 1952 and rehabilitatedd posthumously in 1955.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fc4442a965ef7e38a_dav-ber.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              30.5234,
-              50.4501
-            ],
-            [
-              13.405,
-              52.52
-            ],
-            [
-              2.3522,
-              48.8566
-            ],
-            [
-              37.6173,
-              55.7558
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-5"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.5234,
-            50.4501
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1891",
-          "city": "Kyiv, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.405,
-            52.52
-          ]
-        },
-        "properties": {
-          "event": "emigrated in 1921",
-          "city": "Berlin, Germany"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.3522,
-            48.8566
-          ]
-        },
-        "properties": {
-          "event": "moved in 1925",
-          "city": "Paris, France"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "returned in 1940",
-          "city": "Moscow, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Ilya Ehrenburg",
-      "description": "Ilya Ehrenburg (1891-1967) - writer and journalist, born in Kiev. He emigrated to Europe in 1921 and lived in Paris, Berlin, and other cities. In 1940, he returned to the USSR, continuing his writing and publishing. His works were popular, and unlike many other Jewish writers, he never suffered repression.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fbdf7903b6bb74018_ilya-ere.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              29.0568,
-              50.3172
-            ],
-            [
-              34.7818,
-              32.0853
-            ],
-            [
-              30.5234,
-              50.4501
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              150.8026,
-              59.5682
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-6"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            29.0568,
-            50.3172
-          ]
-        },
-        "properties": {
-          "event": "place of birth, 1889",
-          "city": "Korostyshev, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            34.7818,
-            32.0853
-          ]
-        },
-        "properties": {
-          "event": "emigrated in 1925",
-          "city": "Tel Aviv"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.5234,
-            50.4501
-          ]
-        },
-        "properties": {
-          "event": "returned in 1926",
-          "city": "Kyiv, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "арест в 1948",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            150.8026,
-            59.5682
-          ]
-        },
-        "properties": {
-          "event": "arrested and exiled, 1949-1952",
-          "city": "Magadan, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "David Hofstein",
-      "description": "David Hofstein (1889 - 1952) - Jewish poet (wrote in Yiddish and Hebrew). Between 1922 and 1924, he was a member of the literary group “Shtrom.” In 1925, he worked at the Tel Aviv City Hall; in 1926, he settled in Kyiv, residing in the Writer's House Rolit, and taught at the directing department of the Jewish faculty of the Theater Institute; he was a member of the JAC; starting from 1938 he was investigated by the Ukrainian SSR NKVD regarding the intelligence file “Boyevtsy,” arrested in Kyiv on 16.09.1948 and transported to Moscow, to the investigative unit for especially important cases at the USSR MGB, executed along with other JAC activists.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f4acec738c67d77c0_david-gof.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              -78.8784,
-              42.8864
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              150.8029,
-              59.5687
-            ],
-            [
-              -78.8784,
-              42.8864
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-7"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -78.8784,
-            42.8864
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1916",
-          "city": "Buffalo, USA"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "moved in 1935",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            150.8029,
-            59.5687
-          ]
-        },
-        "properties": {
-          "event": "sent to the Gulag in 1938",
-          "city": "Magadan, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -78.8784,
-            42.8864
-          ]
-        },
-        "properties": {
-          "event": "returned in 1956",
-          "city": "Buffalo, USA"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Thomas Sgovio",
-      "description": "Thomas Sgovio (1916-1997) - American artist Thomas Sgovio was born in the United States and moved to the USSR in 1935 following his Communist father. After attempting to regain his American citizenship, he was arrested by the NKVD and sent to the Gulag in 1938. Sgovio spent long years in the camps and only returned to the U.S. in 1956.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f99f3af9a2463b49f_thomas-sgo.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              -74.1724,
-              40.7357
-            ],
-            [
-              44.0059,
-              56.3269
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              -75.1652,
-              39.9526
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-8"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1724,
-            40.7357
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1907",
-          "city": "Newark, USA"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            44.0059,
-            56.3269
-          ]
-        },
-        "properties": {
-          "event": "worked and lived since 1932",
-          "city": "Nizhny Novgorod, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "moved in 1937",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -75.1652,
-            39.9526
-          ]
-        },
-        "properties": {
-          "event": "returned in 1980",
-          "city": "Philadelphia, USA "
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Margaret Efremova",
-      "description": "Margaret Efremova (1907-2003) was born in Newark (USA) and came to the USSR in 1932, disenchanted with US politics. In the USSR, she married theater director Andrei Efremov and worked as an English language and literature teacher. After her husband's death, she returned to the United States in 1980.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f8a3af23f5380e28c_margaret-efr.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [-79.3832, 43.6532],
-            [37.6173, 55.7558]
-          ]
-        },
-        "properties": {
-          "routeId": "route-9"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-79.3832, 43.6532]
-        },
-        "properties": {
-          "event": "birthplace, 1918",
-          "city": "Toronto, Canada"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [37.6173, 55.7558]
-        },
-        "properties": {
-          "event": "moved in 1925",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [37.6175, 55.7558]
-        },
-        "properties": {
-          "event": "died in 1977",
-          "city": "Moscow, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Leon Sachs",
-      "description": "Leon Sachs (1918-1977) was born in Canada in 1918 to immigrant parents from the Russian Empire. In 1925, his family moved to the USSR, where Leon pursued his musical talents, becoming an outstanding violinist and violin teacher. He went on to become concertmaster of the Bolshoi Theater Orchestra and was an active teacher until he died in 1977.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f10ccba07c6541aa3_leon-sachs.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              39.8845,
-              57.6261
-            ],
-            [
-              -0.1278,
-              51.5074
-            ],
-            [
-              34.779338,
-              32.087647
-            ],
-            [
-              37.6173,
-              55.7558
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-10"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            39.8845,
-            57.6261
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1917",
-          "city": "Yaroslavl, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.1278,
-            51.5074
-          ]
-        },
-        "properties": {
-          "event": "moved in 1984",
-          "city": "London, United Kingdom"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            34.779338,
-            32.087647
-          ]
-        },
-        "properties": {
-          "event": "1987–1988",
-          "city": "Tel Aviv"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "returned in 1989",
-          "city": "Moscow, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Yuri Lyubimov",
-      "description": "Yuri Lyubimov (1917-2014) was a famous Soviet and Russian theater director, founder and artistic director of the Taganka Theater. He lived in London and Israel but returned to Russia in 1989.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f87bbd89e5c7d272a_aleksandr-sol.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              42.7208,
-              43.9133
-            ],
-            [
-              -72.5778,
-              44.5588
-            ],
-            [
-              37.6173,
-              55.7558
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-11"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            42.7208,
-            43.9133
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1918",
-          "city": "Kislovodsk, RSFSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -72.5778,
-            44.5588
-          ]
-        },
-        "properties": {
-          "event": "moved in 1976",
-          "city": "Vermont, USA"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "returned in 1994",
-          "city": "Moscow, Russia"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Aleksandr Solzhenitsyn",
-      "description": "Aleksandr Solzhenitsyn (1918-2008) is probably the best-known Soviet re-emigrant. He was a Russian writer, playwright, political and social activist, and a Nobel Prize winner in literature. In 1945, he was arrested and spent eight years in gulag camps, among them in Kazakhstan, serving time in the Ekibastuz forced labor camp. After his release in 1956, he continued his literary pursuits, denouncing the Stalinist regime. He was expelled from the USSR in 1974 and lived in the United States, but returned to Russia in 1994.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f87bbd89e5c7d272a_aleksandr-sol.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              -77.2975,
-              18.1096
-            ],
-            [
-              -83.0458,
-              42.3314
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              69.2401,
-              41.2995
-            ],
-            [
-              -77.0369,
-              38.9072
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-12"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -77.2975,
-            18.1096
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1906",
-          "city": "Jamaica"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.0458,
-            42.3314
-          ]
-        },
-        "properties": {
-          "event": "moved in 1924",
-          "city": "Detroit, USA"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "moved in 1930",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            69.2401,
-            41.2995
-          ]
-        },
-        "properties": {
-          "event": "during World War II",
-          "city": "Tashkent, Uzbekistan"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -77.0369,
-            38.9072
-          ]
-        },
-        "properties": {
-          "event": "returned in 1976",
-          "city": "Washington, USA"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Robert Robinson",
-      "description": "Robert Robinson (1906-1994) was an American engineer who moved to the Soviet Union in the 1930s to escape racial discrimination in the United States. He worked for Soviet industry and lived in the Soviet Union for over 44 years. Robinson's auto-biography in “Black on Red” chronicles his experiences living in the Soviet Union.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f25199ec0146bf9f8_robert-rob.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              -83.0458,
-              42.3314
-            ],
-            [
-              43.9361,
-              56.2965
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              -118.2437,
-              34.0522
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-13"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.0458,
-            42.3314
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1915",
-          "city": "Detroit, USA"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            43.9361,
-            56.2965
-          ]
-        },
-        "properties": {
-          "event": "moved in 1931",
-          "city": "Gorky (Nizhny Novgorod), USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "after release and until 1976",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2437,
-            34.0522
-          ]
-        },
-        "properties": {
-          "event": "returned in 1976",
-          "city": "Los Angeles, USA"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Victor Herman",
-      "description": "Victor Herman was an American who moved to the USSR in the 1930s with his family as a part of a group of American workers sent to build the Gorky Automobile Plant. He came to be known as “Russia's Lindbergh” for setting the Soviet record for parachute jumps but later fell victim to Stalin's purges. Herman resided in the USSR for 45 years, 18 of those years spent in Soviet camps, before returning to the United States in 1976. Victor Herman wrote and published Grey People, a book about the lives of Americans in the USSR.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf9604acec738c67d78c7_viktor-german.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              30.41729,
-              50.495139
-            ],
-            [
-              30.740096,
-              46.434929
-            ],
-            [
-              37.62982,
-              55.713546
-            ],
-            [
-              2.370721,
-              48.872602
-            ],
-            [
-              121.51312,
-              31.27115
-            ],
-            [
-              -73.958053,
-              40.667691
-            ],
-            [
-              37.630582,
-              55.788187
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-14"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.41729,
-            50.495139
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1889",
-          "city": "Kyiv, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.740096,
-            46.434929
-          ]
-        },
-        "properties": {
-          "event": "spent part of his youth",
-          "city": "Odessa, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.62982,
-            55.713546
-          ]
-        },
-        "properties": {
-          "event": "moved in 1913 and launched his artistic career.",
-          "city": "Moscow, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.370721,
-            48.872602
-          ]
-        },
-        "properties": {
-          "event": "emigrated in 1920",
-          "city": "Paris, France"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            121.51312,
-            31.27115
-          ]
-        },
-        "properties": {
-          "event": "lived between 1935 and 1943",
-          "city": "Shanghai, China"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -73.958053,
-            40.667691
-          ]
-        },
-        "properties": {
-          "event": "lived during World War II",
-          "city": "New York, USA"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.630582,
-            55.788187
-          ]
-        },
-        "properties": {
-          "event": "returned to the USSR in 1943",
-          "city": "Moscow, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Alexander Vertinsky",
-      "description": "Alexander Vertinsky (1889-1957) was a prominent Russian poet, singer, and actor, a symbol of the so-called “Silver Age” era. Vertinsky was born on March 21, 1889 in Kiev. He lived and worked in Odessa, St. Petersburg, Paris and Berlin. In 1943, he came to the USSR and settled in Moscow.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fbdf7903b6bb73ff1_aleksandr-vert.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              126.676042,
-              45.765734
-            ],
-            [
-              37.621581,
-              55.827874
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-15"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            126.676042,
-            45.765734
-          ]
-        },
-        "properties": {
-          "event": "birthplace",
-          "city": "Harbin, China"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.621581,
-            55.827874
-          ]
-        },
-        "properties": {
-          "event": "returned in 1947",
-          "city": "Moscow, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Grigory and Tankred Golenpolsky",
-      "description": "Grigory (1911-1975) and Tankred (1931-2015) Golenpolsky re-emigrated from China to the USSR in 1947. Grigory was arrested (the date of arrest is unknown). Later, the intelligence file on them was closed for lack of evidence. Tankred Golenpolsky (June 8, 1931, Harbin - March 5, 2015, Moscow) worked as a journalist and translator. He is best known for his translations of Arthur Miller into Russian and for founding the first Jewish newspaper in the USSR, the Vestnik of Jewish Soviet Culture (VESK, later International Jewish Newspaper).",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f67cb0b7780f0c29f_golenpolski.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              30.716582,
-              46.446135
-            ],
-            [
-              34.880147,
-              32.080021
-            ],
-            [
-              38.715309,
-              45.856447
-            ],
-            [
-              92.1703,
-              58.4498
-            ],
-            [
-              30.7233,
-              46.4825
-            ],
-            [
-              30.4739,
-              50.4724
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-16"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.716582,
-            46.446135
-          ]
-        },
-        "properties": {
-          "event": "born 1897",
-          "city": "Odessa, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            34.880147,
-            32.080021
-          ]
-        },
-        "properties": {
-          "event": "spring, 1925",
-          "city": "Petah Tikva, Palestine"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            38.715309,
-            45.856447
-          ]
-        },
-        "properties": {
-          "event": "returned, 1927",
-          "city": "USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            92.1703,
-            58.4498
-          ]
-        },
-        "properties": {
-          "event": "exile period, years unknown",
-          "city": "Yeniseisk, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.7233,
-            46.4825
-          ]
-        },
-        "properties": {
-          "event": "after the exile.",
-          "city": "South of Ukraine, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.4739,
-            50.4724
-          ]
-        },
-        "properties": {
-          "event": "place of death, 1938",
-          "city": "Kiev, USSR (Lukyanovskaya prison)"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Moshe Weisbein",
-      "description": "Moshe Weisbein (1897-1938), also known as Solomon Kofman-Vygodsky, Mikhail, Misha, Mikita, was one of the leaders of the illegal Zionist-Socialist Party (ZSP) in the USSR. In February 1923, Moshe Weissben was arrested in Kyiv and sentenced to a five-year banishment overseas. In 1925, he emigrated to Mandatory Palestine and continued his active political work. However, in 1927, at the request of the CSP leadership, Weissben illegally entered the USSR to rebuild the party's organizational structure. In 1929, Weissben was arrested and convicted of espionage and smuggling. He served his three-year sentence in the Solovetsky Special Purpose Camp, where he contracted pulmonary tuberculosis. After his release, Weissbein resumed his political work in the CSP. He took part in drawing up the new party program, only to be re-arrested in 1937. Seven months later, on April 19, 1938, Moshe Weisbein died of tuberculosis in the hospital of Lukyanovsky prison (Kiev)."
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              32.8481,
-              53.0615
-            ],
-            [
-              56.2294,
-              58.0105
-            ],
-            [
-              7.4474,
-              46.9481
-            ],
-            [
-              46.0342,
-              51.5346
-            ],
-            [
-              126.620412,
-              45.776012
-            ],
-            [
-              131.0969,
-              44.5839
-            ],
-            [
-              61.4766,
-              58.0409
-            ],
-            [
-              67.7277,
-              47.5563
-            ],
-            [
-              73.0858,
-              49.8062
-            ],
-            [
-              34.8516,
-              31.0461
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-17"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            32.8481,
-            53.0615
-          ]
-        },
-        "properties": {
-          "event": "birth 1885,
-          "city": "Mglin, Russia"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            56.2294,
-            58.0105
-          ]
-        },
-        "properties": {
-          "event": "graduated from gymnasium, 1903",
-          "city": "Perm, Russia"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.4474,
-            46.9481
-          ]
-        },
-        "properties": {
-          "event": "studied at the university, 1904-1908",
-          "city": "Bern, Switzerland"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            46.0342,
-            51.5346
-          ]
-        },
-        "properties": {
-          "event": "1908",
-          "city": "Volga region, Russia"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            126.620412,
-            45.776012
-          ]
-        },
-        "properties": {
-          "event": "1912–1945",
-          "city": "Harbin, China"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            131.0969,
-            44.5839
-          ]
-        },
-        "properties": {
-          "event": "1945",
-          "city": "Grodekovo, USSR (Primorsky Krai)"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            61.4766,
-            58.0409
-          ]
-        },
-        "properties": {
-          "event": "ITL Azanka",
-          "city": "Azanka, Sverdlovsk Oblast, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            67.7277,
-            47.5563
-          ]
-        },
-        "properties": {
-          "event": "ITL Kengir",
-          "city": "Kengir, Kazakhstan"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            73.0858,
-            49.8062
-          ]
-        },
-        "properties": {
-          "event": "released and settled, 1956",
-          "city": "Karaganda, Kazakhstan"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            34.8516,
-            31.0461
-          ]
-        },
-        "properties": {
-          "event": "emigrated in 1961",
-          "city": "Israel"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Abram Kaufman",
-      "description": "Abram Iosifovich Kaufman (1885-1971) was a medical doctor, one of the founders of the Zionist movement in China, and author of memoirs and works on the history of Jewish communities in the Far East. He was born in Chernihiv province and studied medicine at the University of Bern (Switzerland). In 1912, he settled in Harbin (Manchuria), where he was chairman of the Harbin Jewish community until 1945. In 1937, he founded and headed the National Council of Jewish Communities of the Far East, assisting Jews fleeing to China from Europe. From 1921-1943, he was editor of the Russian-language weekly magazine “Jewish Life,” the weekly “Siberia-Palestine,” and the newspaper “Jewish Vestnik.” He was the chief physician at the Jewish hospital which he established. In 1945, after the Red Army occupied Harbin, Kaufman was arrested and transported to the USSR, charged with espionage and Zionist activity. In 1948, he was sentenced to 25 years imprisonment. Kaufman continued to work as a doctor in the labor camps. He was released in 1956 and was ordered to settle in Karaganda, Kazakhstan. In 1961, he emigrated to Israel with his son Theodore. He continued to work as a doctor and also wrote memoirs and works about the history of Jewish communities in the Far East. Kaufman recounted his years in the USSR in his book “The Camp Doctor.”"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              121.511589,
-              31.261202
-            ],
-            [
-              73.430479,
-              54.978146
-            ],
-            [
-              25.940927,
-              48.295578
-            ],
-            [
-              34.979104,
-              32.777529
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-18"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            121.511589,
-            31.261202
-          ]
-        },
-        "properties": {
-          "event": "place of birth and youth",
-          "city": "Shanghai, China"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            73.430479,
-            54.978146
-          ]
-        },
-        "properties": {
-          "event": "emigrated in the 1940s",
-          "city": "Omsk, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            25.940927,
-            48.295578
-          ]
-        },
-        "properties": {
-          "event": "arrested in 1948",
-          "city": "Chernivtsi, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            34.979104,
-            32.777529
-          ]
-        },
-        "properties": {
-          "event": "supposed repatriation",
-          "city": "Israel"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Bernard Vitenzon",
-      "description": "Bernard Solomonovich Vitenzon (?-2018) was born in Shanghai. His family owned a haberdashery store on Joffre Street. In the 1940s, Vitenzon emigrated to the Soviet Union. In 1948, he was arrested on charges of anti-Soviet activities. According to investigation records, Bernard Vitenzon sought to join the OUN/UPA to fight the Soviet regime. He was convicted as an American spy. According to unconfirmed accounts, Vitenzon survived and eventually repatriated to Israel."
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              126.6424,
-              45.7567
-            ],
-            [
-              73.430479,
-              54.978146
-            ],
-            [
-              25.940927,
-              48.295578
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-19"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            126.6424,
-            45.7567
-          ]
-        },
-        "properties": {
-          "event": " place of birth and life before repatriation to the USSR",
-          "city": "Harbin, China"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            73.430479,
-            54.978146
-          ]
-        },
-        "properties": {
-          "event": "repatriation",
-          "city": "Omsk, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            25.940927,
-            48.295578
-          ]
-        },
-        "properties": {
-          "event": "arrested in 1948",
-          "city": "Chernivtsi, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Boris Abramovich and Alexander Borisovich Shornik ",
-      "description": "Boris Abramovich Shornik (1884-?) and Alexander Borisovich Shornik (1920-?) were re-emigrants from Harbin. In 1948, Alexander Shornik was arrested on charges of anti-Soviet activities. According to investigation protocols, he sought to join the OUN/UPA to fight against Soviet power. Alexander Shornik was convicted as an American spy. The subsequent fates of the father and son Shorniks are unknown."
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              22.7179,
-              48.439
-            ],
-            [
-              2.343,
-              48.8529
-            ],
-            [
-              28.5813,
-              49.8996
-            ],
-            [
-              1.8883,
-              46.6034
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-20"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            22.7179,
-            48.439
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1922",
-          "city": "Mukachevo, Ukraine"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.343,
-            48.8529
-          ]
-        },
-        "properties": {
-          "event": "Sorbonne University, 1937",
-          "city": "Paris, France"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            28.5813,
-            49.8996
-          ]
-        },
-        "properties": {
-          "event": "post-prison residence",
-          "city": "Berdichev, Ukraine"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.8883,
-            46.6034
-          ]
-        },
-        "properties": {
-          "event": "return (no specific city)",
-          "city": "France"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Maurice Friedman",
-      "description": "Maurice Davidovich Friedman (1922-2000) was born in Mukachevo into a family of teachers. The family moved to France when he was still an infant. In 1937, he entered the Sorbonne. During the war, he fought in the British army, and in 1947, he came, as a supporter of the communist idea, to the Soviet Union. In October 1947, Friedman attempted to flee illegally to Romania but was arrested by a border guard unit and sentenced to a year in corrective labor camps. After serving his sentence, he came to live in Berdychiv. In 1950, a form case was opened on him as an alleged participant in the Zionist underground. After Stalin's death, Friedman's case was closed. He worked in Berdichev as a foreign language teacher; he knew English, French, Spanish, Farsi, Hebrew, and Yiddish. In 1961, he defended his dissertation. In the 1980s, he returned to France."
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              24.1052,
-              56.9496
-            ],
-            [
-              30.3351,
-              59.9343
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              13.405,
-              52.52
-            ],
-            [
-              -118.3228,
-              34.0922
-            ],
-            [
-              37.6173,
-              55.7558
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-21"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            24.1052,
-            56.9496
-          ]
-        },
-        "properties": {
-          "event": "birth, 1898",
-          "city": "Riga, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.3351,
-            59.9343
-          ]
-        },
-        "properties": {
-          "event": "lived since 1915",
-          "city": "St. Petersburg, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "since 1920",
-          "city": "Moscow, RSFSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.405,
-            52.52
-          ]
-        },
-        "properties": {
-          "event": "moved for work, 1926",
-          "city": "Berlin, Germany"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.3228,
-            34.0922
-          ]
-        },
-        "properties": {
-          "event": "worked in Hollywood, 1930–1932",
-          "city": "Hollywood, USA"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "returned, from 1932 until his death in 1948",
-          "city": "Moscow, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Sergei Eisenstein",
-      "description": "Sergei Eisenstein (1898-1948) was an illustrious Soviet director, film theorist, and educator. He invented several groundbreaking editing methods. He directed such celebrated films as Battleship Potemkin and Ivan the Terrible. Eisenstein worked abroad, including in Hollywood, but returned to the USSR in 1932.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95fd198130b56e4cf6c_serhei-eis.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              32.4414,
-              54.4067
-            ],
-            [
-              30.2049,
-              55.1904
-            ],
-            [
-              8.6512,
-              49.8728
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              13.405,
-              52.52
-            ],
-            [
-              37.6173,
-              55.7558
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-22"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            32.4414,
-            54.4067
-          ]
-        },
-        "properties": {
-          "event": "born, 1890",
-          "city": "Pochinok, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.2049,
-            55.1904
-          ]
-        },
-        "properties": {
-          "event": "studies, 1909",
-          "city": "Vitebsk, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            8.6512,
-            49.8728
-          ]
-        },
-        "properties": {
-          "event": "studies, 1909-1914",
-          "city": "Darmstadt, Germany"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "1920s",
-          "city": "Moscow, RSFSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.405,
-            52.52
-          ]
-        },
-        "properties": {
-          "event": "1920s",
-          "city": "Berlin, Germany"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "returned until his death in 1941",
-          "city": "Moscow, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "El Lissitzky",
-      "description": "El Lissitzky (1890-1941) was a famous Soviet artist, architect, and designer, was one of the leaders of the Russian avant-garde. Lissitzky made a significant contribution to the evolution of Suprematism and Constructivism, working in both the USSR and Germany. He is known for his revolutionary architecture, printing, and exhibition design projects.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f158581b9e10f8ca3_el-lis.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              49.1233,
-              55.7879
-            ],
-            [
-              150.8114,
-              59.5675
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              -74.006,
-              40.7128
-            ],
-            [
-              37.6173,
-              55.7558
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-23"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.1233,
-            55.7879
-          ]
-        },
-        "properties": {
-          "event": "birth, 1932",
-          "city": "Kazan, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            150.8114,
-            59.5675
-          ]
-        },
-        "properties": {
-          "event": "childhood, 1930s",
-          "city": "Magadan, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "since 1950s.",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.006,
-            40.7128
-          ]
-        },
-        "properties": {
-          "event": "emigration, 1980s",
-          "city": "USA"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "returned, 2004 until his death in 2009",
-          "city": "Moscow, Russia"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Vasily Aksyonov",
-      "description": "Vasily Aksyonov (1932-2009) was a prominent Soviet and Russian writer, a representative of the “sixties” generation. His parents were repressed and imprisoned in 1937, so Vasily Aksyonov spent part of his childhood in Magadan, which is reflected in his work. Aksyonov emigrated to the United States in 1980 but returned to Russia in 2004.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f6991b32c718a428d_vasilii-aks.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              27.1164,
-              51.0056
-            ],
-            [
-              -58.3816,
-              -34.6037
-            ],
-            [
-              4.3517,
-              50.8503
-            ],
-            [
-              24.7097,
-              48.9226
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-24"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            27.1164,
-            51.0056
-          ]
-        },
-        "properties": {
-          "event": "birthplace, 1921/1924",
-          "city": "Berezno, Volhynia, Ukraine (then Poland)"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.3816,
-            -34.6037
-          ]
-        },
-        "properties": {
-          "event": "emigraed in 1935",
-          "city": "Buenos Aires, Argentina"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.3517,
-            50.8503
-          ]
-        },
-        "properties": {
-          "event": "visited in 1947",
-          "city": "Brussels, Belgium"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            24.7097,
-            48.9226
-          ]
-        },
-        "properties": {
-          "event": "moved in 1949",
-          "city": "Stanislav (now Ivano-Frankivsk), Ukraine"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "David Gendler",
-      "description": "David Gendler emigrated with his family to Argentina in 1935. He arrived in Brussels in 1947, then returned to the USSR in 1949, living in Stanislav.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95faf6eff9fd796d37f_david-gen.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              44.8271,
-              41.7151
-            ],
-            [
-              41.6386,
-              41.6418
-            ],
-            [
-              30.7233,
-              46.4825
-            ],
-            [
-              34.9896,
-              32.794
-            ],
-            [
-              44.8271,
-              41.7151
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-25"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            44.8271,
-            41.7151
-          ]
-        },
-        "properties": {
-          "event": "born, 1896",
-          "city": "Tbilisi, Russian Empire"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            41.6386,
-            41.6418
-          ]
-        },
-        "properties": {
-          "event": "1925",
-          "city": "Batumi, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.7233,
-            46.4825
-          ]
-        },
-        "properties": {
-          "event": "1925",
-          "city": "Odessa, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            34.9896,
-            32.794
-          ]
-        },
-        "properties": {
-          "event": "1925–1926",
-          "city": "Haifa, Palestine"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            44.8271,
-            41.7151
-          ]
-        },
-        "properties": {
-          "event": "returned in 1926",
-          "city": "Tbilisi, USSR"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Yakov (Sebi) Khananashvili",
-      "description": "Yakov (Sebi) Khananashvili (1896-1972) was an active member of the Georgian Zionist movement who obtained permission to leave for Palestine in 1925. Faced with harsh living conditions in Palestine, Yakov's family returned to Tbilisi, presumably in 1926, where he was arrested for espionage and sent to the Gulag for 6 years. Sebi Khananashvili died in 1972 in Tbilisi.",
-      "featuredImage": "https://cdn.prod.website-files.com/668d02c7633feda23293b5c5/670bf95f2853d2955e074cbc_sebi-haa.jpg"
-    }
-  },
-  {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [
-              25.2797,
-              54.6872
-            ],
-            [
-              84.8709,
-              52.2978
-            ],
-            [
-              19.456,
-              51.7592
-            ],
-            [
-              34.8516,
-              31.0461
-            ],
-            [
-              37.6173,
-              55.7558
-            ],
-            [
-              -2.2426,
-              53.4808
-            ],
-            [
-              37.6173,
-              55.7558
-            ]
-          ]
-        },
-        "properties": {
-          "routeId": "route-26"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            25.2797,
-            54.6872
-          ]
-        },
-        "properties": {
-          "event": "birth, 1930",
-          "city": "Vilna, Lithuania"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            84.8709,
-            52.2978
-          ]
-        },
-        "properties": {
-          "event": "deportation to a settlement, 1941",
-          "city": "Altai, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            19.456,
-            51.7592
-          ]
-        },
-        "properties": {
-          "event": "1946–1947",
-          "city": "Lodz (Polish Republic)"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            34.8516,
-            31.0461
-          ]
-        },
-        "properties": {
-          "event": "1948",
-          "city": "Israel"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "cultural exchange program: research work, 1978-1989",
-          "city": "Moscow, USSR"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -2.2426,
-            53.4808
-          ]
-        },
-        "properties": {
-          "event": "research and teaching, 1989-2020",
-          "city": "Manchester, Great Britain"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            37.6173,
-            55.7558
-          ]
-        },
-        "properties": {
-          "event": "died in 2020",
-          "city": "Moscow, Russia"
-        }
-      }
-    ],
-    "routeInfo": {
-      "title": "Teodor Shanin",
-      "description": "Teodor Shanin (1930-2020) - professor, sociologist, founder of the Moscow Higher School of Social and Economic Sciences. Born in Vilna (modern Vilnius). In 1940, after Lithuania's annexation to the USSR, his father was arrested, and Theodore and his mother were deported to a settlement in Altai. Subsequently, he lived with his parents in Samarkand. In 1948 he left for Mandatory Palestine, where he fought as a volunteer in Israel's War of Independence. In 1951 he graduated from the Jerusalem College of Social Work. He pursued his professional career. From 1968 he taught at leading universities in England and Israel. He conducted his field research in Iran, India, Mexico, Tanzania, Hungary, Russia, and the USA. From 1989 to 1991, he organized three advanced training schools for emerging Soviet sociologists in Manchester and Kent. In 1995 he came to Moscow and became one of the founders and the first rector of the Moscow Higher School of Social and Economic Sciences (Shaninka)."
-    }
-  }
 ]
